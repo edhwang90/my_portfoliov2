@@ -1,0 +1,15 @@
+@import '../../import.scss';
+
+.footer-container {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 50px;
+}
+
+@media only screen and (max-width: 540px) {
+  .footer-container {
+    padding: 25px 20px;
+  }
+}

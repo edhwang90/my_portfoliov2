@@ -1,0 +1,20 @@
+@import '../../import.scss';
+
+.showcase {
+  li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  img {
+    width: 45px;
+    height: auto;
+  }
+}
+
+.showcase-bottom {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  align-items: center;
+}

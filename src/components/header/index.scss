@@ -1,0 +1,146 @@
+@import '../../import.scss';
+
+.header-container {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  padding: 25px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a.cta {
+  background-color: $link-color;
+  padding: 7px 15px;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: normal;
+  border-bottom: none;
+ }
+
+ a.cta:hover {
+  background-color: $link-hover-color;
+  color: $font-color;
+  border-bottom: none;
+ }
+
+.navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+
+  li {
+    margin-right: 45px;
+    margin-bottom: 0px;
+    float: left;
+  }
+}
+
+.menuBtn {
+  width: 60px;
+  height: 45px;
+  position: relative;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  padding: 0;
+  cursor: pointer;
+
+  span {
+    display: block;
+    position: absolute;
+    left: 0;
+    height: 10px;
+    width: 100%;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+    background-color: $link-color;
+  }
+
+  span:nth-child(1) {
+    top: 0px;
+  }
+
+  span:nth-child(2) {
+    top: 18px;
+    width: 75%;
+  }
+
+  span:nth-child(3) {
+    bottom: 0px;
+  }
+}
+
+.menuBtn.menu-slide-open{
+  span {
+    width: 90%;
+  }
+  span:nth-child(1) {
+    transform: rotate(45deg);
+    top: 42%;
+    left:-5px;
+  }
+
+  span:nth-child(2) {
+    width: 0%;
+    opacity: 0;
+  }
+
+  span:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 42%;
+    left:-5px;
+  }
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  bottom: 0;
+  transform: translateX(-100%);
+  transition: all .5s ease-in-out;
+  background-color: #fff;
+  
+  ul {
+    opacity: 0;
+  }
+}
+
+.menu.slide-open {
+  position: fixed;
+  transform: translateX(0%);
+  left: 0px;
+  right: 0px;
+  opacity: .95;
+  z-index: 8;
+  bottom: 0;
+  transition: all .5s ease-in-out;
+
+  ul {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.4em;
+    opacity: 1;
+  }
+
+  li {
+    margin-bottom: 25px;
+  }
+}
+
+
+
+@media only screen and (max-width: 540px) {
+  .header-container {
+    padding: 25px 20px;
+  }
+}
