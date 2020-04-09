@@ -18,3 +18,27 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@media only screen and (max-width: 540px) {
+  .showcase-bottom {
+    margin-top: 0px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    ul {
+      margin-bottom: 20px;
+    }
+  }
+
+  .showcase {
+    h3 {
+      line-height: 1em;
+    }
+
+    img {
+      width: 25px;
+    }
+    
+  }
+}
