@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "gatsby";
 
-import './index.scss';
+import './header.scss';
 
 class Header extends React.Component {
   state = {

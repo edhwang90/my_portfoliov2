@@ -1,0 +1,160 @@
+@import '../../import.scss';
+
+.portfolio-content {
+  background-color: #ffffff;
+
+  .wrapper-container {
+    background-color: #ffffff;
+  }
+
+  img {
+    width: 300px;
+    height: auto;
+  }
+}
+
+.img-list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  li {
+    display: inline-block;
+    margin-bottom: 50px;
+  }
+
+  li:last-of-type {
+    margin-bottom: 0px;
+  }
+}
+
+.tabs-container {
+  background-color: #fff;
+
+  ol {
+    list-style: none;
+    text-align: center;
+
+    li {
+      display: inline-block;
+      width: 30%;
+      cursor: pointer;
+    }
+  }
+
+  .tab-list-active span {
+    border-bottom: 7px solid $link-color;
+  }
+
+  .tab-list-item span {
+    display: inline-block;
+    line-height: 1.5em;
+  }
+}
+
+.tab-content {
+  margin-top: 50px;
+  
+  a {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  ul {
+    text-align: center;
+    width: 100%;
+  }
+
+  li {
+    margin-bottom: 50px;
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+  }
+
+  li:last-of-type {
+    margin-bottom: 0px;
+    margin-right: 0px;
+  }
+
+  p:first-of-type {
+    margin-top: 50px;
+  }
+
+  p {
+    margin-bottom: 20px;
+  }
+
+  p:last-of-type {
+    margin-bottom: 50px;
+  }
+}
+
+.img-stepped-list {
+  
+  list-style: none;
+
+  li:last-of-type {
+    margin-bottom: 0px;
+  }
+
+  label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #f7f7f7;
+    font-size: 24px;
+    border-radius: 50%;
+    width: 60px;
+    min-width: 60px;
+  }
+
+  p {
+    margin-left: 20px;
+    text-align: left;
+  }
+
+  img {
+    width: 620px;
+    margin-top: 20px;
+  }
+}
+
+.img-large img {
+  width: 450px;
+}
+
+.img-xlarge img {
+  width: 600px;
+}
+
+a.zoom-in {
+  cursor: zoom-in;
+}
+
+@media only screen and (max-width: 540px) {
+  .tabs-container ol li {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .tabs-container ol li:last-of-type {
+    margin-bottom: 0px;
+  }
+
+  .tabs-content li {
+    margin-right: 0px;
+  }
+
+  .img-xlarge img {
+    width: 100%;
+  }
+}
