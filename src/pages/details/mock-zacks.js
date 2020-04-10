@@ -58,6 +58,9 @@ const Details = () => (
         </Tabs>
       </div>
     </section>
+    <section className="next-project">
+      <Link to="/details/gov-financial-application" className="link" title="To Next Project">Next project</Link>
+    </section>
   </Layout>
 );
 

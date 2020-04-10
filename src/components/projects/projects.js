@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "gatsby";
 
 import './projects.scss';
 
@@ -57,11 +58,10 @@ const Projects = () => {
             <ul>
               {
                 badges.map((badge, index) =>
-                  (<li key={`key${index}`} className="badge"><img src={badge} /></li>)
-                )
+                  (<li key={`key${index}`} className="badge"><img src={badge} /></li>))
               }
             </ul>
-            <a href={route} className="link" title="To Project Details">View details</a>
+            <Link to={route} className="link" title="To Project Details">View details</Link>
           </div>
           
         </div>

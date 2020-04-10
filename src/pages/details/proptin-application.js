@@ -29,6 +29,9 @@ const Details = () => (
         </ul>
       </div>
     </section>
+    <section className="next-project">
+      <Link to="/details/fundbox-partners-plugin" className="link" title="To Next Project">Next project</Link>
+    </section>
   </Layout>
 );
 

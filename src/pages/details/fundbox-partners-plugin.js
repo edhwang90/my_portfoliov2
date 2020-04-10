@@ -44,6 +44,9 @@ const Details = () => (
         </ol>
       </div>
     </section>
+    <section className="next-project">
+      <Link to="/details/personal-project" className="link" title="To Next Project">Next project</Link>
+    </section>
   </Layout>
 );
 
