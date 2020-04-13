@@ -13,10 +13,14 @@ class StickyButton extends Component {
   }
 
   handleScroll = (e) => {
-    if (window.pageYOffset === 0) return;
+    const stickyCTA = document.getElementById('StickyButton');
+    
+    if (window.pageYOffset === 0) {
+      stickyCTA.style.position = 'fixed';
+      return;
+    }
 
     const { locationToStop } = this.props;
-    const stickyCTA = document.getElementById('StickyButton');
     const footerPosition = document.getElementById(locationToStop).offsetTop;
     const footerHeight = document.getElementById(locationToStop).offsetHeight;
     const currentScrollPosition = window.innerHeight + window.pageYOffset;

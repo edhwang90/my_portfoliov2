@@ -45,7 +45,7 @@ const Projects = () => {
   };
 
 
-  let projects = data.projects.map((item, index) => {
+  const projects = data.projects.map((item, index) => {
     const { title, description, badges, route } = item;
 
     return (
