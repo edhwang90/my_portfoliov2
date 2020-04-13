@@ -8,26 +8,35 @@ import ProptinApplication from './proptin-application';
 import FundboxPartnersPlugin from './fundbox-partners-plugin';
 import PersonalProject from './personal-project';
 import MockZacks from './mock-zacks';
+import StickyButton from '../../components/sticky-button/sticky-button';
 
 import './details.scss';
 
-
 class Details extends Component {
+  state = {
+    nextRoute: `details/?project=${this.props.search.project}`
+  };
 
   render () {
     const { search: { project } } = this.props;
+    var nextProject = `details/?project=${project}`;
 
     const projectContent = () => {
       switch (project) {
         case 'gov-financial-application':
+          nextProject = 'details/?project=proptin-application';
           return <GovFinancialApplication />
         case 'proptin-application':
+          nextProject = 'details/?project=fundbox-partners-plugin';
           return <ProptinApplication />
         case 'fundbox-partners-plugin':
+          nextProject = 'details/?project=personal-project';
           return <FundboxPartnersPlugin />
         case 'personal-project':
+          nextProject = 'details/?project=mock-zacks';
           return <PersonalProject />
         case 'mock-zacks':
+          nextProject = 'details/?project=gov-financial-application';
           return <MockZacks />
         default:
           return '';
@@ -38,32 +47,12 @@ class Details extends Component {
       <Layout>
         <div>{projectContent()}</div>
 
-        <section className="next-project">
-          <Link to="/details/proptin-application" className="link" title="To Next Project">Next project</Link>
-         </section>
+        <StickyButton locationToStop="Footer">
+          <Link to={nextProject} className="link" title="To Next Project">Next project</Link>
+        </StickyButton>
       </Layout>
     )
   }
 }
 
-// const Details = (props) => {
-//   console.log('ay', props);
-
-//   return (
-//     <Layout>
-//       <SEO title="Page three" />
-//       <section className="wrapper-container">
-//         <h3>Details</h3>
-  
-//         <p>
-//         {props.search.hero}
-//         </p>
-//       </section>
-//       <section className="portfolio-content">
-  
-//       </section>
-//     </Layout>
-//   )
-// }
-//export default Details;
 export default withLocation(Details)

@@ -4,7 +4,7 @@ import { Link } from "gatsby";
 import './footer.scss';
 
 const Footer = () => (
-  <div className="footer-container">
+  <div id="Footer" className="footer-container">
     <ul className="navigation">
     <li>
       <Link className="link" to="/" title="Home">Home</Link>
