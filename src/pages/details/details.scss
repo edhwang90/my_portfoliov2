@@ -139,6 +139,7 @@
   bottom: 0;
   left: 0;
   right: 0;
+  position: fixed;
   
   a {
     color: #fff;
@@ -178,7 +179,7 @@ a.zoom-in {
     width: 100%;
   }
 
-  .sticky-button {
+  #StickyButton {
     padding: 25px 20px;
   }
 }
