@@ -7,8 +7,8 @@ import Tabs from '../../components/tabs/tabs';
 
 import './details.scss';
 
-const Details = () => (
-  <Layout>
+const FundboxPartnersPlugin = () => (
+  <React.Fragment>
     <SEO title="Details: Fundbox Partners Plugin" />
     <section className="wrapper-container">
       <h3>Fundbox Partners Plugin</h3>
@@ -44,10 +44,7 @@ const Details = () => (
         </ol>
       </div>
     </section>
-    <section className="next-project">
-      <Link to="/details/personal-project" className="link" title="To Next Project">Next project</Link>
-    </section>
-  </Layout>
+  </React.Fragment>
 );
 
-export default Details;
+export default FundboxPartnersPlugin;

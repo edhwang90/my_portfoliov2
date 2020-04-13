@@ -10,35 +10,35 @@ const Projects = () => {
         title: '.Gov Financial Application Redesign',
         description: 'Provided assistance in the selling and planning of a comprehensive redesign effort for a legacy, nation/agency-wide financial application.',
         badges: ['https://res.cloudinary.com/dkcdueneq/image/upload/v1558633254/excel_alulbq.png', 'https://res.cloudinary.com/dkcdueneq/image/upload/v1558633254/sketch_ukkcnt.png', 'https://res.cloudinary.com/dkcdueneq/image/upload/v1558633254/justinmind_kmtfa5.png', 'https://res.cloudinary.com/dkcdueneq/image/upload/v1558633254/powerpoint_dxn8p7.png'],
-        route: '/details/gov-financial-application',
+        route: '/details/?project=gov-financial-application',
         id: '3'
       },
       { 
         title: 'ProptIn Application',
         description: 'Developed a POC for an internal project intended to compliment the proposal creation process.',
         badges: ['https://res.cloudinary.com/dkcdueneq/image/upload/v1585245020/html_pmwsnn.png', 'https://res.cloudinary.com/dkcdueneq/image/upload/v1585245094/css_xnf9rx.png', 'https://res.cloudinary.com/dkcdueneq/image/upload/v1585245094/js_s9dokv.png', 'https://res.cloudinary.com/dkcdueneq/image/upload/v1585244808/sass_j806pp.png', 'https://res.cloudinary.com/dkcdueneq/image/upload/v1585244871/angular_aiutpd.png', 'https://res.cloudinary.com/dkcdueneq/image/upload/v1585244927/webpack_nt1wx6.png'],
-        route: '/details/proptin-application',
+        route: '/details/?project=proptin-application',
         id: '4'
       },
       { 
         title: 'Fundbox Partners Plugin',
         description: 'Developed a POC to enable Fundbox products within third-party websites and exchanges.',
         badges: ['https://res.cloudinary.com/dkcdueneq/image/upload/v1585245020/html_pmwsnn.png', 'https://res.cloudinary.com/dkcdueneq/image/upload/v1585245094/css_xnf9rx.png', 'https://res.cloudinary.com/dkcdueneq/image/upload/v1585245094/js_s9dokv.png', 'https://res.cloudinary.com/dkcdueneq/image/upload/v1585244962/python_vhwdny.png' ],
-        route: '/details/fundbox-partners-plugin',
+        route: '/details/?project=fundbox-partners-plugin',
         id: '5'
       },
       { 
         title: 'Personal Project',
         description: 'Designed to provide an online space to create custom 2x2 matrices whether in the design, development, or project planning phases.',
         badges: ['https://res.cloudinary.com/dkcdueneq/image/upload/v1558633254/sketch_ukkcnt.png', 'https://res.cloudinary.com/dkcdueneq/image/upload/v1558633254/invision_x0r9qq.png'],
-        route: '/details/personal-project',
+        route: '/details/?project=personal-project',
         id: '1'
       },
       { 
         title: 'Mock Zacks.com Redesign',
         description: 'A mock redesign of the Zacks.com mobile application. Motivated by the lack of tablet specific design and personal interest in seeing an updated interface.',
         badges: ['https://res.cloudinary.com/dkcdueneq/image/upload/v1558633254/sketch_ukkcnt.png', 'https://res.cloudinary.com/dkcdueneq/image/upload/v1558633254/keynote_ygbrka.png'],
-        route: '/details/mock-zacks',
+        route: '/details/?project=mock-zacks',
         id: '2'
       }
     ]

@@ -1,15 +1,14 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-import Layout from '../../layout';
 import SEO from '../../components/seo/seo';
 import Tabs from '../../components/tabs/tabs';
 
 import './details.scss';
 
-const Details = () => (
-  <Layout>
-    <SEO title="Page three" />
+const GovFinancialApplication = () => (
+  <React.Fragment>
+    <SEO title=".Gov Financial Application" />
     <section className="wrapper-container">
       <h3>.Gov Financial Application Redesign</h3>
 
@@ -59,10 +58,8 @@ const Details = () => (
         </Tabs>
       </div>
     </section>
-    <section className="next-project">
-      <Link to="/details/proptin-application" className="link" title="To Next Project">Next project</Link>
-    </section>
-  </Layout>
+
+  </React.Fragment>
 )
 
-export default Details
+export default GovFinancialApplication;

@@ -7,8 +7,8 @@ import Tabs from '../../components/tabs/tabs';
 
 import './details.scss';
 
-const Details = () => (
-  <Layout>
+const MockZacks = () => (
+  <React.Fragment>
     <SEO title="Details: Mock Zacks.com Redesign" />
     <section className="wrapper-container">
       <h3>Mock Zacks.com Redesign</h3>
@@ -58,10 +58,7 @@ const Details = () => (
         </Tabs>
       </div>
     </section>
-    <section className="next-project">
-      <Link to="/details/gov-financial-application" className="link" title="To Next Project">Next project</Link>
-    </section>
-  </Layout>
+  </React.Fragment>
 );
 
-export default Details;
+export default MockZacks;
