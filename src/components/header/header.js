@@ -19,7 +19,7 @@ class Header extends React.Component {
 
     return (
       <React.Fragment>
-        <header className="header-container">
+        <header id="Header" className="header-container">
           <ul className="navigation">
             <li> 
               <button className={menuOpen ? 'menuBtn menu-slide-open' : 'menuBtn'} onClick={this.toggleMenu}>
@@ -64,7 +64,6 @@ class Header extends React.Component {
             </li>
           </ul>
         </div>
-      
       </React.Fragment>
     )
   }

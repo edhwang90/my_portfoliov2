@@ -131,12 +131,11 @@
   }
 }
 
-.sticky-button {
+#StickyButton {
   padding: 20px 50px;
   background-color: $link-color;
   display: flex;
   justify-content: flex-end;
-  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;

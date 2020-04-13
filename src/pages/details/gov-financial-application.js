@@ -4,6 +4,7 @@ import SEO from '../../components/seo/seo';
 import Tabs from '../../components/tabs/tabs';
 
 import './details.scss';
+import StickyDiv from '../../components/sticky-div/sticky-div';
 
 const GovFinancialApplication = () => (
   <React.Fragment>

@@ -9,7 +9,7 @@ import FundboxPartnersPlugin from './fundbox-partners-plugin';
 import PersonalProject from './personal-project';
 import MockZacks from './mock-zacks';
 import NotFound from '../../components/not-found/not-found';
-import StickyButton from '../../components/sticky-button/sticky-button';
+import StickyDiv from '../../components/sticky-div/sticky-div';
 
 import './details.scss';
 
@@ -53,9 +53,9 @@ const Details = (props) => {
     <Layout>
       <div>{projectContent()}</div>
 
-      <StickyButton locationToStop="Footer">
+      <StickyDiv id="StickyButton" locationToStop="Footer" anchor="Footer">
         {nextButton}
-      </StickyButton>
+      </StickyDiv>
     </Layout>
   )
 }
