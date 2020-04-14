@@ -12,12 +12,17 @@ const ProjectTemplate = (props) => {
   const { data: { projectListJson: { content } }, pageContext: { nextProject }} = props;
 
   let contentPartial;
-    if (content.tabs) {
-      contentPartial = <TabsPartial data={content.tabs}></TabsPartial>
-    }
-    else {
-      contentPartial = <ListPartial data={content.assets}></ListPartial>
-    }
+  if (content.tabs) {
+    contentPartial = <TabsPartial data={content.tabs}></TabsPartial>
+  }
+  else {
+    contentPartial = <ListPartial data={content.assets}></ListPartial>
+  }
+  
+  let additionalLink;
+  if (content.link) {
+    additionalLink = <p><a className="to-bold" rel="noopener noreferrer" href={content.link.url} title={content.link.title} target="_blank">{`${content.link.title}:`} {content.link.url}</a></p>
+  }
   
 
   return (
@@ -31,6 +36,8 @@ const ProjectTemplate = (props) => {
            return <p key={index}>{text}</p>
           })
         }
+
+        {additionalLink}
       </section>
       <section className="portfolio-content">
         {contentPartial}
@@ -60,11 +67,13 @@ export const query = graphql`
           assets {
             url
             assetSize
+            isVideo
           }
         }
         assets {
           url
           assetSize
+          isVideo
         }
       }
     }

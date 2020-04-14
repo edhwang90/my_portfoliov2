@@ -40,6 +40,7 @@ exports.sourceNodes = ({ actions }) => {
     type ProjectAssetsMetadata {
       url: String!
       assetSize: String!
+      isVideo: Boolean!
     }
     type ProjectLinkMetadata {
       title: String!

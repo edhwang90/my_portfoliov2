@@ -20,15 +20,18 @@
           "assets": [
             {
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558968907/finL-3_yhosej.png",
-              "assetSize": "standard"
+              "assetSize": "standard",
+              "isVideo": false
             },
             {
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633236/finL-1_tahrwr.png",
-              "assetSize": "standard"
+              "assetSize": "standard",
+              "isVideo": false
             },
             {
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633236/finL-2_xjwe5a.png",
-              "assetSize": "standard"
+              "assetSize": "standard",
+              "isVideo": false
             }
           ]
         },
@@ -40,11 +43,13 @@
           "assets": [
             {
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1583173090/fin-7_demnkx.png",
-              "assetSize": "large"
+              "assetSize": "large",
+              "isVideo": false
             },
             {
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1583172880/fin-8_xumpqq.png",
-              "assetSize": "large"
+              "assetSize": "large",
+              "isVideo": false
             }
           ]
         },
@@ -57,15 +62,18 @@
           "assets": [
             { 
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558968501/Fin-byFunctionality_csaet0.png",
-              "assetSize": "large"
+              "assetSize": "large",
+              "isVideo": false
             },
             { 
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558968501/Fin-bySectionAndTheme_jmjey0.png",
-              "assetSize": "large"
+              "assetSize": "large",
+              "isVideo": false
             },
             { 
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558968501/Fin-byRole_u5imi5.png",
-              "assetSize": "large"
+              "assetSize": "large",
+              "isVideo": false
             }
           ]
         }
@@ -87,11 +95,13 @@
       "assets": [
         { 
           "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633244/proptin-login_dvkz2j.png",
-          "assetSize": "xlarge"
+          "assetSize": "xlarge",
+          "isVideo": false
         },
         {
           "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633244/proptin-search_wbvfwe.png",
-          "assetSize": "xlarge"
+          "assetSize": "xlarge",
+          "isVideo": false
         }
       ]
     }
@@ -110,15 +120,18 @@
       "assets": [
         {
           "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558968545/GC_BTN-1_dk6ic1.png",
-          "assetSize": "xlarge"
+          "assetSize": "xlarge",
+          "isVideo": false
         },
         {
           "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633236/GC_BTN-3_pftnyg.png",
-          "assetSize": "xlarge"
+          "assetSize": "xlarge",
+          "isVideo": false
         },
         {
           "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558968545/GC_BTN-2_evwfgj.png",
-          "assetSize": "xlarge"
+          "assetSize": "xlarge",
+          "isVideo": false
         }
       ]
     }
@@ -147,15 +160,18 @@
           "assets": [
             {
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633244/ml-6_j5zmbk.png",
-              "assetSize": "standard"
+              "assetSize": "standard",
+              "isVideo": false
             },
             {
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633245/ml-2_dzyszw.png",
-              "assetSize": "standard"
+              "assetSize": "standard",
+              "isVideo": false
             },
             {
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633245/ml-5_eaoz89.png",
-              "assetSize": "standard"
+              "assetSize": "standard",
+              "isVideo": false
             }
           ]
         },
@@ -167,23 +183,28 @@
           "assets": [
             {
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633244/mm-1_e35fjs.png",
-              "assetSize": "standard"
+              "assetSize": "standard",
+              "isVideo": false
             },
             {
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633244/mm-2_ip3kbx.png",
-              "assetSize": "standard"
+              "assetSize": "standard",
+              "isVideo": false
             },
             {
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633244/mm-4_ayzryw.png",
-              "assetSize": "standard"
+              "assetSize": "standard",
+              "isVideo": false
             },
             {
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633244/mm-6_iuu1ar.png",
-              "assetSize": "standard"
+              "assetSize": "standard",
+              "isVideo": false
             },
             {
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633244/mm-5_ocortz.png",
-              "assetSize": "standard"
+              "assetSize": "standard",
+              "isVideo": false
             }
           ]
         },
@@ -195,7 +216,8 @@
           "assets": [
             {
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1577299975/test1_cttrec.png",
-              "assetSize": "large"
+              "assetSize": "large",
+              "isVideo": false
             }
           ]
         }
@@ -222,15 +244,18 @@
           "assets": [
             {
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558968613/screen-z-1_hieucq.png",
-              "assetSize": "standard"
+              "assetSize": "standard",
+              "isVideo": false
             },
             {
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558968612/screen-z-2_o6ao0w.png",
-              "assetSize": "standard"
+              "assetSize": "standard",
+              "isVideo": false
             },
             {
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558968612/screen-z-3_jyc7qt.png",
-              "assetSize": "standard"
+              "assetSize": "standard",
+              "isVideo": false
             }
           ]
         },
@@ -242,15 +267,23 @@
           "assets": [
             {
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1583614823/h1_gxsph2.png",
-              "assetSize": "standard"
+              "assetSize": "standard",
+              "isVideo": false
             },
             {
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633244/zacks-3_h4uah9.png",
-              "assetSize": "standard"
+              "assetSize": "standard",
+              "isVideo": false
             },
             {
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633244/zacks-4_fdc24c.png",
-              "assetSize": "standard"
+              "assetSize": "standard",
+              "isVideo": false
+            },
+            {
+              "url": "https://res.cloudinary.com/dkcdueneq/video/upload/v1577300822/zacks-cropped_qglbk9.mp4",
+              "assetSize": "standard",
+              "isVideo": true
             }
           ]
         },
@@ -262,11 +295,13 @@
           "assets": [
             {
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1583615819/search-ab_mfzaoo.png",
-              "assetSize": "xlarge"
+              "assetSize": "xlarge",
+              "isVideo": false
             },
             {
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1583615819/order-ab_qdxq9j.png",
-              "assetSize": "xlarge"
+              "assetSize": "xlarge",
+              "isVideo": false
             }
           ]
         }

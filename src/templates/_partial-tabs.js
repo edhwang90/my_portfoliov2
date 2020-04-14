@@ -15,9 +15,22 @@ const TabsPartial = (props) => {
             });
 
             const assets = tab.assets.map((asset, assetIndex) => {
-              return (
-                <li key={assetIndex}><a className={`zoom-in img-${asset.assetSize}`} href={asset.url} rel="noopener noreferrer" target="_blank"><img src={asset.url}></img></a></li>
-              )
+              if (!asset.isVideo) {
+                return (
+                  <li key={assetIndex}><a className={`zoom-in img-${asset.assetSize}`} href={asset.url} rel="noopener noreferrer" target="_blank"><img src={asset.url}></img></a></li>
+                )
+              }
+              else {
+                return (
+                  <li key={assetIndex}>
+                    <video controls>
+                    <source src={asset.url} type="video/mp4"></source>
+                    Your browser does not support the video tag.
+                  </video>
+                  </li>
+                )
+              }
+
             });
 
             return (
