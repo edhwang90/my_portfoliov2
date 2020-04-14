@@ -28,34 +28,41 @@ exports.sourceNodes = ({ actions }) => {
     type ProjectMetadata {
       title: String!
       description: String!
-      link: String
+      link: ProjectLinkMetadata
       tabs: ProjectTabsMetadata
-      images: ProjectImagesMetadata
+      assets: ProjectAssetsMetadata
     }
     type ProjectTabsMetadata {
       title: String!
       description: String!
-      images: ProjectImagesMetadata!
+      assets: ProjectAssetsMetadata!
     }
-    type ProjectImagesMetadata {
+    type ProjectAssetsMetadata {
       url: String!
-      imgSize: String!
+      assetSize: String!
+    }
+    type ProjectLinkMetadata {
+      title: String!
+      url: String!
     }
   `);
 }
 
 exports.createPages = async ({ actions, graphql, reporter }, options) => {
-  const basePath = options.basePath || '/';
-
   const projectTemplate = path.resolve('src/templates/project-template.js');
 
   const result = await graphql(`
     query {
-      allTestJson {
+      allProjectListJson {
         edges {
           node {
             id
             slug
+            content {
+              tabs {
+                title
+              }
+            }
           }
         }
       }
@@ -67,16 +74,21 @@ exports.createPages = async ({ actions, graphql, reporter }, options) => {
     return;
   }
 
-  const projects = result.data.allTestJson.edges;
+  const projects = result.data.allProjectListJson.edges;
 
-  projects.forEach(project => {
+  projects.forEach((project, index) => {
     const { node: { slug, id } } = project;
+
+    const nextProjectSlug = index === projects.length-1
+      ? projects[0].node.slug
+      : projects[index+1].node.slug;
 
     actions.createPage({
       path: slug,
       component: projectTemplate,
       context: {
-        projectID: id
+        projectID: id,
+        nextProject: nextProjectSlug
       }
     });
   });

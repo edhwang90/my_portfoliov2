@@ -7,13 +7,13 @@ const Projects = () => {
 
   const data = useStaticQuery(graphql`
     query ProjectsListQuery {
-      allProjectsJson {
+      allProjectListJson {
         edges {
           node {
             title
             description
             badges
-            route
+            slug
             id
           }
         }
@@ -21,8 +21,8 @@ const Projects = () => {
     }
   `);
 
-  const projects = data.allProjectsJson.edges.map((item, index) => {
-    const { title, description, badges, route } = item.node;
+  const projects = data.allProjectListJson.edges.map((item, index) => {
+    const { title, description, badges, slug } = item.node;
 
     return (
       <section key={`projectKey${index}`} id="Project1" className="showcase">
@@ -37,7 +37,7 @@ const Projects = () => {
                   (<li key={`key${index}`} className="badge"><img src={badge} /></li>))
               }
             </ul>
-            <Link to={route} className="link" title="To Project Details">View details</Link>
+            <Link to={`/${slug}`} className="link" title="To Project Details">View details</Link>
           </div>
           
         </div>

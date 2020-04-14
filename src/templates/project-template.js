@@ -1,33 +1,68 @@
 import React from 'react';
-import { Link, useStaticQuery, graphql } from "gatsby";
+import { Link, graphql } from "gatsby";
+import Layout from '../layout';
+import SEO from '../components/seo/seo';
 
-const ProjectTemplate = ({data}) => {
-    console.log(data);
+import TabsPartial from './_partial-tabs';
+import ListPartial from './_partial-list';
+
+const ProjectTemplate = (props) => {
+  const { data: { projectListJson: { content } }, pageContext: { nextProject }} = props;
+
+  let contentPartial;
+    if (content.tabs) {
+      contentPartial = <TabsPartial data={content.tabs}></TabsPartial>
+    }
+    else {
+      contentPartial = <ListPartial data={content.assets}></ListPartial>
+    }
+  
+
   return (
-    <div>hi project details</div>
+    <Layout>
+      <SEO title={content.title} />
+      <section className="wrapper-container">
+        <h3>{content.title}</h3>
+
+        {
+          content.description.map((text, index) => {
+           return <p key={index}>{text}</p>
+          })
+        }
+      </section>
+      <section className="portfolio-content">
+        {contentPartial}
+      </section>
+      <div className="sticky-bottom cta">
+        <Link to={`/${nextProject}`} className="link" title="To Next Project">Next Project</Link>
+      </div>
+    </Layout>  
   )
 }
 
 export const query = graphql`
   query ProjectTemplateQuery ($projectID: String!) {
-    testJson (id: { eq: $projectID }) {
+    projectListJson (id: { eq: $projectID }) {
       id
       title
       content {
         title
         description
-        link
+        link {
+          title
+          url
+        }
         tabs {
           title
           description
-          images {
+          assets {
             url
-            imgSize
+            assetSize
           }
         }
-        images {
+        assets {
           url
-          imgSize
+          assetSize
         }
       }
     }
