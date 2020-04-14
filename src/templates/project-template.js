@@ -6,6 +6,8 @@ import SEO from '../components/seo/seo';
 import TabsPartial from './_partial-tabs';
 import ListPartial from './_partial-list';
 
+import './project-template.scss';
+
 const ProjectTemplate = (props) => {
   const { data: { projectListJson: { content } }, pageContext: { nextProject }} = props;
 
