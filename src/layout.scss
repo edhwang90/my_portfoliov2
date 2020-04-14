@@ -120,6 +120,16 @@ a {
   text-align: center;
 }
 
+.sticky-bottom {
+  position: sticky;
+  bottom: 0px;
+}
+
+.sticky-top {
+  position: sticky;
+  top: 100px;
+}
+
 @media only screen and (max-width: 540px) {
   html {
     font-size: 100%;

@@ -34,6 +34,11 @@
   ol {
     list-style: none;
     text-align: center;
+    display: block;
+    background-color: #fff;
+    position: sticky;
+    top: 100px;
+    padding-bottom: 50px;
 
     li {
       display: inline-block;
@@ -57,7 +62,6 @@
 }
 
 .tab-content {
-  margin-top: 50px;
   
   a {
     font-weight: bold;
@@ -79,10 +83,6 @@
   li:last-of-type {
     margin-bottom: 0px;
     margin-right: 0px;
-  }
-
-  p:first-of-type {
-    margin-top: 50px;
   }
 
   p {
@@ -131,16 +131,12 @@
   }
 }
 
-#StickyButton {
-  padding: 20px 50px;
+.cta {
   background-color: $link-color;
+  padding: 20px 50px;
   display: flex;
   justify-content: flex-end;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  position: fixed;
-  
+
   a {
     color: #fff;
     font-weight: bold;
@@ -161,11 +157,17 @@ a.zoom-in {
 }
 
 @media only screen and (max-width: 540px) {
-  .tabs-container ol li {
-    display: block;
-    width: 100%;
-    margin-bottom: 15px;
-  }
+  .tabs-container {
+    ol {
+      padding-bottom: 20px;
+    }
+
+    ol li {
+      display: block;
+      width: 100%;
+      margin-bottom: 15px;
+    }
+  } 
 
   .tabs-container ol li:last-of-type {
     margin-bottom: 0px;
@@ -179,7 +181,7 @@ a.zoom-in {
     width: 100%;
   }
 
-  #StickyButton {
+  .cta {
     padding: 25px 20px;
   }
 }
