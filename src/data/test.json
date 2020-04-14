@@ -1,0 +1,103 @@
+[
+  {
+    "title": ".Gov Financial Application Redesign",
+    "description": "Provided assistance in the selling and planning of a comprehensive redesign effort for a legacy, nation/agency-wide financial application.",
+    "badges": ["https://res.cloudinary.com/dkcdueneq/image/upload/v1558633254/excel_alulbq.png", "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633254/sketch_ukkcnt.png", "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633254/justinmind_kmtfa5.png", "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633254/powerpoint_dxn8p7.png"],
+    "route": "/details/?project=3",
+    "id": "3",
+    "slug": "gov-financial-app",
+    "content": {
+      "title": ".Gov Financial Application Redesign",
+      "description": [
+        "Provided assistance in the selling and planning of a comprehensive redesign effort for a legacy, nation/agency-wide financial application."
+      ],
+      "link": "",
+      "tabs": [
+        { 
+          "title": "Analysis & Wireframing",
+          "description": [
+            "Utilized downtime on the project to re-analyze past research/raw feedback from customer support sources. Provided UX minded categorization in order to better visualize and understand problem areas within the application as a whole. Created a UX analysis excel document to include all raw data and an interactive dashboard for filtering and viewing of analysis.",
+            "Elevated issues regarding Requirements/Development team contradictions and potential future roadblocks while also communicating the need for further UX assistance. Successfully argued for further UX analysis and recommended alternate feature prioritizations. Assisted in creating a UX minded sales deck that included: past requested/identified problem areas, newly found problems to be elevated, and potential project process and timeline."
+          ],
+          "images": [
+            {
+              "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558968907/finL-3_yhosej.png",
+              "imgSize": "standard"
+            },
+            {
+              "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633236/finL-1_tahrwr.png",
+              "imgSize": "standard"
+            },
+            {
+              "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633236/finL-2_xjwe5a.png",
+              "imgSize": "standard"
+            }
+          ]
+        },
+        {
+          "title": "Iteration",
+          "description": [
+            "Created iterations of wireframes after discussing and collaborating with the Requirements and Development teams. Considerations such as timeline and technical feasibility guided wireframes to be transitional in new technical functionality. Fidelity was increased to account for new expectations/requests for it to be included in a sales deck."
+          ],
+          "images": [
+            {
+              "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1583173090/fin-7_demnkx.png",
+              "imgSize": "large"
+            },
+            {
+              "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1583172880/fin-8_xumpqq.png",
+              "imgSize": "large"
+            }
+          ]
+        },
+        {
+          "title": "Sales & Strategy",
+          "description": [
+            "Utilized downtime on the project to re-analyze past research/raw feedback from customer support sources. Provided UX minded categorization in order to better visualize and understand problem areas within the application as a whole. Created a UX analysis excel document to include all raw data and an interactive dashboard for filtering and viewing of analysis.",
+            "Elevated issues regarding Requirements/Development team contradictions and potential future roadblocks while also communicating the need for further UX assistance. Successfully argued for further UX analysis and recommended alternate feature prioritizations. Assisted in creating a UX minded sales deck that included: past requested/identified problem areas, newly found problems to be elevated, and potential project process and timeline."
+          ],
+          "images": [
+            { 
+              "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558968501/Fin-byFunctionality_csaet0.png",
+              "imgSize": "large"
+            },
+            { 
+              "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558968501/Fin-bySectionAndTheme_jmjey0.png",
+              "imgSize": "large"
+            },
+            { 
+              "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558968501/Fin-byRole_u5imi5.png",
+              "imgSize": "large"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  { 
+    "title": "ProptIn Application",
+    "description": "Developed a POC for an internal project intended to compliment the proposal creation process.",
+    "badges": ["https://res.cloudinary.com/dkcdueneq/image/upload/v1585245020/html_pmwsnn.png", "https://res.cloudinary.com/dkcdueneq/image/upload/v1585245094/css_xnf9rx.png", "https://res.cloudinary.com/dkcdueneq/image/upload/v1585245094/js_s9dokv.png", "https://res.cloudinary.com/dkcdueneq/image/upload/v1585244808/sass_j806pp.png", "https://res.cloudinary.com/dkcdueneq/image/upload/v1585244871/angular_aiutpd.png", "https://res.cloudinary.com/dkcdueneq/image/upload/v1585244927/webpack_nt1wx6.png"],
+    "route": "/details/?project=4",
+    "id": "4",
+    "slug": "proptin-app",
+    "content": {
+      "title": "ProptIn Application",
+      "description": [
+        "Utilized Angular, Webpack, and Sass for a MAMP application for searching and creating user profiles regarding proposal team creation. Provided features for both online/offline favoriting, searching, and viewing/creating profiles.",
+        "Utilized user tests to validate and improve features. Successfully presented and received approval for further development."
+      ],
+      "link": "",
+      "images": [
+        { 
+          "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633244/proptin-login_dvkz2j.png",
+          "imgSize": "xlarge"
+        },
+        {
+          "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633244/proptin-search_wbvfwe.png",
+          "imgSize": "xlarge"
+        }
+      ]
+    }
+  }
+]
