@@ -51,7 +51,8 @@ exports.sourceNodes = ({ actions }) => {
 }
 
 exports.createPages = async ({ actions, graphql, reporter }, options) => {
-  const projectTemplate = path.resolve('src/templates/project-template.js');
+  const projectListTemplate = path.resolve('src/templates/project-list-template/project-list-template.js');
+  const projectTabsTemplate = path.resolve('src/templates/project-tabs-template/project-tabs-template.js');
 
   const result = await graphql(`
     query {
@@ -60,6 +61,11 @@ exports.createPages = async ({ actions, graphql, reporter }, options) => {
           node {
             id
             slug
+            content {
+              tabs {
+                title
+              }
+            }
           }
         }
       }
@@ -74,19 +80,31 @@ exports.createPages = async ({ actions, graphql, reporter }, options) => {
   const projects = result.data.allProjectListJson.edges;
 
   projects.forEach((project, index) => {
-    const { node: { slug, id } } = project;
+    const { node: { slug, id, content: { tabs } } } = project;
 
     const nextProjectSlug = index === projects.length-1
       ? projects[0].node.slug
       : projects[index+1].node.slug;
 
-    actions.createPage({
-      path: slug,
-      component: projectTemplate,
-      context: {
-        projectID: id,
-        nextProject: nextProjectSlug
-      }
-    });
+    if (tabs) {
+      actions.createPage({
+        path: slug,
+        component: projectTabsTemplate,
+        context: {
+          projectID: id,
+          nextProject: nextProjectSlug
+        }
+      });
+    }
+    else {
+      actions.createPage({
+        path: slug,
+        component: projectListTemplate,
+        context: {
+          projectID: id,
+          nextProject: nextProjectSlug
+        }
+      });
+    }
   });
 };

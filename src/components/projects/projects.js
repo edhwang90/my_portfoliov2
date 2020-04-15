@@ -34,7 +34,7 @@ const Projects = () => {
             <ul>
               {
                 badges.map((badge, index) =>
-                  (<li key={`key${index}`} className="badge"><img src={badge} /></li>))
+                  (<li key={`key${index}`} className="badge"><img alt="Badge" src={badge} /></li>))
               }
             </ul>
             <Link to={`/${slug}`} className="link" title="To Project Details">View details</Link>

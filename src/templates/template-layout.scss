@@ -1,0 +1,29 @@
+@import '../import.scss';
+
+.portfolio-content {
+  background-color: #ffffff;
+
+  .wrapper-container {
+    background-color: #ffffff;
+  }
+}
+
+.cta {
+  background-color: $link-color;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: flex-end;
+
+  a {
+    color: #fff;
+    font-weight: bold;
+    border-color: #fff;
+  }
+}
+
+
+@media only screen and (max-width: 540px) {
+  .cta {
+    padding: 25px 20px;
+  }
+}
