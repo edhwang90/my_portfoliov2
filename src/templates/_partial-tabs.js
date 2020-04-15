@@ -14,6 +14,12 @@ const TabsPartial = (props) => {
               return (<p key={textIndex}>{text}</p>)
             });
 
+            let additionalLink;
+
+            if (tab.link) {
+              additionalLink = <p><a className="to-bold" rel="noopener noreferrer" href={tab.link.url} title={tab.link.title} target="_blank">{`${tab.link.title}:`} {tab.link.url}</a></p>;
+            }
+            
             const assets = tab.assets.map((asset, assetIndex) => {
               if (!asset.isVideo) {
                 return (
@@ -36,7 +42,7 @@ const TabsPartial = (props) => {
             return (
               <div label={tab.title} key={index} >
                 { descriptions }
-
+                { additionalLink }
                 <ul>
                   {assets}
                 </ul>

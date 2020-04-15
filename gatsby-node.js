@@ -35,6 +35,7 @@ exports.sourceNodes = ({ actions }) => {
     type ProjectTabsMetadata {
       title: String!
       description: String!
+      link: ProjectLinkMetadata
       assets: ProjectAssetsMetadata!
     }
     type ProjectAssetsMetadata {
@@ -59,11 +60,6 @@ exports.createPages = async ({ actions, graphql, reporter }, options) => {
           node {
             id
             slug
-            content {
-              tabs {
-                title
-              }
-            }
           }
         }
       }

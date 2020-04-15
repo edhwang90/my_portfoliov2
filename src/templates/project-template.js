@@ -57,13 +57,13 @@ export const query = graphql`
       content {
         title
         description
-        link {
-          title
-          url
-        }
         tabs {
           title
           description
+          link {
+            title
+            url
+          }
           assets {
             url
             assetSize
