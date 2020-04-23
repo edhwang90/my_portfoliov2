@@ -15,23 +15,25 @@ const TemplateLayout = (props) => {
 
   return (
     <Layout>
-      <SEO title={content.title} />
-      <section className="wrapper-container">
-        <h3>{content.title}</h3>
+      <div className="details">
+        <SEO title={content.title} />
+        <section className="wrapper-container">
+          <h3>{content.title}</h3>
 
-        {
-          content.description.map((text, index) => {
-           return <p key={index}>{text}</p>
-          })
-        }
+          {
+            content.description.map((text, index) => {
+            return <p key={index}>{text}</p>
+            })
+          }
 
-        {additionalLink}
-      </section>
-      <section className="portfolio-content">
-        {children}
-      </section>
-      <div className="sticky-bottom cta">
-        <Link to={`/${nextProject}`} className="link" title="To Next Project">Next Project</Link>
+          {additionalLink}
+        </section>
+        <section className="portfolio-content">
+          {children}
+        </section>
+        <div className="sticky-bottom">
+          <Link to={`/${nextProject}`} className="link inverted" title="To Next Project">Next Project</Link>
+        </div>
       </div>
     </Layout>
   )

@@ -32,7 +32,7 @@ class Tab extends Component {
       <li 
         className={className}
         onClick={onTabClick}>
-          <span>{label}</span>
+          <a href={`#${activeTab.replace(/ /g, '')}`}>{label}</a>
       </li>
     );
   }

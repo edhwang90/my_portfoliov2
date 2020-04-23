@@ -19,17 +19,15 @@
     }
   }
 
-  .tab-list-active span {
-    border-bottom: 7px solid $link-color;
+  .tab-list-active a, .tab-list-item a:hover {
+    border-bottom: 5px solid $link-color;
   }
 
-  .tab-list-item span {
+  .tab-list-item a {
     display: inline-block;
     line-height: 1.5em;
     font-weight: bold;
-    padding-left: 7px;
-    padding-right: 7px;
-    padding-bottom: 2px;
+    padding: 7px 15px;
   }
 }
 

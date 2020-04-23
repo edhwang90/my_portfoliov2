@@ -32,7 +32,7 @@ const Footer = () => (
   </ul>
 
     <a
-      className="link cta"
+      className="link circular inverted"
       title="Email"
       href="mailto:eddhwang0117@gmail.com?subject=Work Opportunity">
       Let's Talk!
