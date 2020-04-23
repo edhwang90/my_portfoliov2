@@ -30,7 +30,7 @@ class Header extends React.Component {
             </li>
           </ul>
           <a
-            className="link circular inverted"
+            className="link rounded inverted"
             title="Email"
             href="mailto:eddhwang0117@gmail.com?subject=Work Opportunity">
             Let's Talk!
