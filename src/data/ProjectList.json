@@ -1,8 +1,37 @@
 [
   {
+    "title": "Pattern Library",
+    "description": "Ongoing development of a pattern library for streamlining future work. Built with React and Storybook.js and tested with Jest & Enzyme.",
+    "badges": [ "https://res.cloudinary.com/dkcdueneq/image/upload/v1585245020/html_pmwsnn.png", "https://res.cloudinary.com/dkcdueneq/image/upload/v1585245094/css_xnf9rx.png", "https://res.cloudinary.com/dkcdueneq/image/upload/v1585245094/js_s9dokv.png", "https://res.cloudinary.com/dkcdueneq/image/upload/v1588786659/react-icon_pyqjw2.png", "https://res.cloudinary.com/dkcdueneq/image/upload/v1588786661/storybook-icon_jf6e5c.png" ],
+    "id": "6",
+    "slug": "react-storybook",
+    "content": {
+      "title": "Storybook.js React Pattern Library",
+      "description": [
+        "Developed a pattern library to aid in future development. Utilized HTML/Sass, React, Storybook.js, Jest & Enzyme."
+      ],
+      "link": {
+        "title": "Development Link",
+        "url": "https://my-storybook-5566d.firebaseapp.com/"
+      },
+      "assets": [
+        {
+          "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1588786677/Screen_Shot_2020-05-06_at_1.36.59_PM_j3gzhh.png",
+          "assetSize": "xlarge",
+          "isVideo": false
+        },
+        {
+          "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1588786676/Screen_Shot_2020-05-06_at_1.37.23_PM_mxaels.png",
+          "assetSize": "xlarge",
+          "isVideo": false
+        }
+      ]
+    }
+  },
+  {
     "title": ".Gov Financial Application Redesign",
     "description": "Provided assistance in the selling and planning of a comprehensive redesign effort for a legacy, nation/agency-wide financial application.",
-    "badges": ["https://res.cloudinary.com/dkcdueneq/image/upload/v1558633254/excel_alulbq.png", "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633254/sketch_ukkcnt.png", "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633254/justinmind_kmtfa5.png", "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633254/powerpoint_dxn8p7.png"],
+    "badges": ["https://res.cloudinary.com/dkcdueneq/image/upload/v1558633254/excel_alulbq.png", "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633254/sketch_ukkcnt.png", "https://res.cloudinary.com/dkcdueneq/image/upload/v1588787921/justinmind-icon_vc1ofy.png", "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633254/powerpoint_dxn8p7.png"],
     "id": "3",
     "slug": "gov-financial-app",
     "content": {
