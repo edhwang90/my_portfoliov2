@@ -88,6 +88,7 @@ a {
   padding: 7px 15px;
   border-bottom: 5px solid $link-color;
   transition: all .3s ease-in-out;
+  display: inline-block;
 
   &:hover {
     border-bottom-color: $link-hover-color;
@@ -137,10 +138,6 @@ a {
 }
 
 @media only screen and (max-width: 540px) {
-  html {
-    font-size: 100%;
-  }
-
   .desktop-only {
     display: none;
   }

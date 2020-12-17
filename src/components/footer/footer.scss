@@ -6,10 +6,29 @@
   justify-content: space-between;
   align-items: center;
   padding: 25px 50px;
+  flex-wrap: wrap;
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 620px) {
   .footer-container {
-    padding: 25px 20px;
+    align-items: flex-start;
+
+    .navigation {
+      align-self: flex-start;
+      flex-direction: column;
+      margin-bottom: 25px;
+      align-items: center;
+      
+      li {
+        margin-bottom: 15px;
+      }
+      // li {
+      //   display: flex;
+
+      //   &:last-of-type {
+      //     margin-right: 0;
+      //   }
+      // }
+    }
   }
 }
