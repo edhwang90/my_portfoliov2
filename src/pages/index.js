@@ -12,7 +12,7 @@ const IndexPage = () => (
    
     <section className="landing wrapper-container">
       <h1 className="hero-text">
-      Hello World! My name is <strong>Edy Hwang</strong>, and I am an experienced <strong>Front&#x2011;End Developer</strong> with a passion for <strong>User Experience</strong>.
+      Hello, my name is <strong>Edmond</strong>, and I am a <strong>Front End Developer</strong> who enjoys working in <strong>UX</strong> and <strong>Full Stack Development</strong>.
       </h1>
       <div className="hero-img">
         <img className="hero desktop-only" alt="Waving Hand" src="https://res.cloudinary.com/dkcdueneq/image/upload/v1577126229/waving-hand_qdyn4e.png"/>
