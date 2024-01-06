@@ -1,4 +1,4 @@
-@import './import.scss';
+@import "./import.scss";
 
 html {
   font-family: sans-serif;
@@ -18,7 +18,7 @@ h2,
 h3,
 h4 {
   color: $font-color;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   text-decoration: none;
   font-weight: normal;
   margin: 0;
@@ -26,11 +26,16 @@ h4 {
   line-height: 1.5em;
 }
 
-body, label, p, div, a, span {
+body,
+label,
+p,
+div,
+a,
+span {
   color: $font-color;
   text-decoration: none;
   font-weight: normal;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 h3 {
@@ -45,7 +50,8 @@ p {
   font-size: 18px;
 }
 
-ul, ol {
+ul,
+ol {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -70,8 +76,6 @@ a {
 }
 
 .wrapper-container {
-  max-width: 1080px;
-  margin: 0 auto;
   padding: 50px 50px;
 
   & > p {
@@ -87,7 +91,7 @@ a {
   font-weight: 700;
   padding: 7px 15px;
   border-bottom: 5px solid $link-color;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   display: inline-block;
 
   &:hover {
@@ -107,7 +111,7 @@ a {
   }
 }
 
-.inverted {
+.inverted:hover {
   color: #fff;
 }
 

@@ -1,28 +1,31 @@
-import React from 'react';
-import { Link } from "gatsby";
+import React from "react"
+import { Link } from "gatsby"
 
-import './header.scss';
+import "./header.scss"
 
 class Header extends React.Component {
   state = {
-    menuOpen: false
-  };
+    menuOpen: false,
+  }
 
-  toggleMenu = (e) => {
-    e.preventDefault();
-    const { menuOpen } = this.state;
-    this.setState({ 'menuOpen': !menuOpen });
+  toggleMenu = e => {
+    e.preventDefault()
+    const { menuOpen } = this.state
+    this.setState({ menuOpen: !menuOpen })
   }
 
   render() {
-    const { menuOpen } = this.state;
+    const { menuOpen } = this.state
 
     return (
       <React.Fragment>
         <header id="Header" className="header-container">
           <ul className="navigation">
-            <li> 
-              <button className={menuOpen ? 'menuBtn menu-slide-open' : 'menuBtn'} onClick={this.toggleMenu}>
+            <li>
+              <button
+                className={menuOpen ? "menuBtn menu-slide-open" : "menuBtn"}
+                onClick={this.toggleMenu}
+              >
                 <span></span>
                 <span></span>
                 <span></span>
@@ -32,15 +35,18 @@ class Header extends React.Component {
           <a
             className="link rounded inverted"
             title="Email"
-            href="mailto:eddhwang0117@gmail.com?subject=Work Opportunity">
+            href="mailto:edydhwang@gmail.com?subject=Work Opportunity"
+          >
             Let's Talk!
           </a>
         </header>
-        
-        <div className={ menuOpen ? 'menu slide-open' : 'menu' }>
+
+        <div className={menuOpen ? "menu slide-open" : "menu"}>
           <ul>
             <li>
-              <Link className="link" to="/" title="Home">Home</Link>
+              <Link className="link" to="/" title="Home">
+                Home
+              </Link>
             </li>
             <li>
               <a
@@ -48,7 +54,8 @@ class Header extends React.Component {
                 title="Resume"
                 href="/edh_cv_public.pdf"
                 rel="noopener noreferrer"
-                target="_blank">
+                target="_blank"
+              >
                 Resume
               </a>
             </li>
@@ -58,7 +65,8 @@ class Header extends React.Component {
                 title="GitHub"
                 href="https://github.com/edhwang90"
                 rel="noopener noreferrer"
-                target="_blank">
+                target="_blank"
+              >
                 GitHub
               </a>
             </li>
@@ -67,6 +75,6 @@ class Header extends React.Component {
       </React.Fragment>
     )
   }
-} 
+}
 
-export default Header;
+export default Header
