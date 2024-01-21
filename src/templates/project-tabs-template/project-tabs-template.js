@@ -22,7 +22,7 @@ const ProjectTabsTemplate = (props) => {
 
               let additionalLink;
 
-              if (tab.link) {
+              if (tab.link?.url.length > 0) {
                 additionalLink = <p><a className="to-bold" rel="noopener noreferrer" href={tab.link.url} title={tab.link.title} target="_blank">{`${tab.link.title}:`} {tab.link.url}</a></p>;
               }
 

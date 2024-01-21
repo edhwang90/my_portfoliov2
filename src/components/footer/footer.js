@@ -38,7 +38,7 @@ const Footer = () => (
     <a
       className="link rounded inverted"
       title="Email"
-      href="mailto:eddhwang0117@gmail.com?subject=Work Opportunity"
+      href="mailto:edydhwang@gmail.com?subject=Work Opportunity"
     >
       Let's Talk!
     </a>
