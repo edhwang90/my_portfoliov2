@@ -43,7 +43,7 @@
         { 
           "title": "Analysis & Wireframing",
           "description": [
-            "Provided wireframes for initial requirements pertaining to reporting, landing page, and administration. Utilized quantitative data from customer support queries and weighted priority lists from stakeholders. Utilized qualitative data from user and stakeholder interviews.",
+            "Provided wireframes for initial requirements pertaining to reporting, landing page, and administration. Utilized customer support queries, weighted priority lists from stakeholders, and user and stakeholder interviews.",
             "Prioritized tablet and non-fullscreen resolutions to promote RWD. Future usage would require tablet/kiosk usage while reporting usage was often used in conjunction with other applications."
           ],
           "assets": [

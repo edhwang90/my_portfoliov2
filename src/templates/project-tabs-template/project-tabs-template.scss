@@ -8,8 +8,6 @@
     text-align: center;
     display: block;
     background-color: #fff;
-    position: sticky;
-    top: 100px;
     padding-bottom: 50px;
 
     li {
@@ -69,10 +67,6 @@
 
 @media only screen and (max-width: 540px) {
   .tabs-container {
-    ol {
-      padding-bottom: 20px;
-    }
-
     ol li {
       display: block;
       width: 100%;
