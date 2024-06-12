@@ -52,7 +52,7 @@ class Header extends React.Component {
               <a
                 className="link"
                 title="Resume"
-                href="/edh_cv_public.pdf"
+                href="/edh_resume_public.pdf"
                 rel="noopener noreferrer"
                 target="_blank"
               >
