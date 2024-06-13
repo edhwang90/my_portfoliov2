@@ -16,6 +16,14 @@
   li:last-of-type {
     margin-bottom: 0px;
   }
+
+  .with-description {
+    display: block;
+
+    p {
+      text-align: left;
+    }
+  }
 }
 
 .asset-large img {

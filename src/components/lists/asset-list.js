@@ -4,14 +4,26 @@ import './asset-list.scss';
 
 const AssetList = (props) => {
   const { data } = props;
+
   return (
     <ul className="asset-list">
     {
       data.map((asset, assetIndex) => {
         if (!asset.isVideo) {
-          return (
-            <li key={assetIndex}><a className={`zoom-in asset-${asset.assetSize}`} href={asset.url} rel="noopener noreferrer" target="_blank"><img src={asset.url}></img></a></li>
-          )
+          if (asset.description.length > 0) {
+            return (
+              <li className="with-description" key={assetIndex}>
+                <p>{asset.description}</p>
+
+                <a className={`zoom-in asset-${asset.assetSize}`} href={asset.url} rel="noopener noreferrer" target="_blank"><img src={asset.url}></img></a>
+              </li>
+            )
+          } else {
+            return (
+              <li key={assetIndex}><a className={`zoom-in asset-${asset.assetSize}`} href={asset.url} rel="noopener noreferrer" target="_blank"><img src={asset.url}></img></a></li>
+            )
+          }
+
         }
         else {
           return (

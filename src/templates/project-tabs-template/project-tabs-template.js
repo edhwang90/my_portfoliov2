@@ -57,6 +57,7 @@ export const query = graphql`
             url
           }
           assets {
+            description
             url
             assetSize
             isVideo

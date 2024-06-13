@@ -16,11 +16,13 @@
       },
       "assets": [
         {
+          "description": "",
           "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1588786677/Screen_Shot_2020-05-06_at_1.36.59_PM_j3gzhh.png",
           "assetSize": "xlarge",
           "isVideo": false
         },
         {
+          "description": "",
           "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1588786676/Screen_Shot_2020-05-06_at_1.37.23_PM_mxaels.png",
           "assetSize": "xlarge",
           "isVideo": false
@@ -48,16 +50,19 @@
           ],
           "assets": [
             {
+              "description": "",
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558968907/finL-3_yhosej.png",
               "assetSize": "standard",
               "isVideo": false
             },
             {
+              "description": "Created potential A/B testing material. Alternatives included (1) search order by volume or ticker name and (2) the order of displaying relevant information.",
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633236/finL-1_tahrwr.png",
               "assetSize": "standard",
               "isVideo": false
             },
             {
+              "description": "",
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633236/finL-2_xjwe5a.png",
               "assetSize": "standard",
               "isVideo": false
@@ -71,11 +76,13 @@
           ],
           "assets": [
             {
+              "description": "",
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1583173090/fin-7_demnkx.png",
               "assetSize": "large",
               "isVideo": false
             },
             {
+              "description": "",
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1583172880/fin-8_xumpqq.png",
               "assetSize": "large",
               "isVideo": false
@@ -90,16 +97,19 @@
           ],
           "assets": [
             { 
+              "description": "",
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558968501/Fin-byFunctionality_csaet0.png",
               "assetSize": "large",
               "isVideo": false
             },
             { 
+              "description": "",
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558968501/Fin-bySectionAndTheme_jmjey0.png",
               "assetSize": "large",
               "isVideo": false
             },
             { 
+              "description": "",
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558968501/Fin-byRole_u5imi5.png",
               "assetSize": "large",
               "isVideo": false
@@ -123,11 +133,13 @@
       ],
       "assets": [
         { 
+          "description": "",
           "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633244/proptin-login_dvkz2j.png",
           "assetSize": "xlarge",
           "isVideo": false
         },
         {
+          "description": "",
           "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633244/proptin-search_wbvfwe.png",
           "assetSize": "xlarge",
           "isVideo": false
@@ -148,16 +160,19 @@
       ],
       "assets": [
         {
+          "description": "",
           "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558968545/GC_BTN-1_dk6ic1.png",
           "assetSize": "xlarge",
           "isVideo": false
         },
         {
+          "description": "",
           "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633236/GC_BTN-3_pftnyg.png",
           "assetSize": "xlarge",
           "isVideo": false
         },
         {
+          "description": "",
           "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558968545/GC_BTN-2_evwfgj.png",
           "assetSize": "xlarge",
           "isVideo": false
@@ -184,16 +199,19 @@
           ],
           "assets": [
             {
+              "description": "",
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633244/ml-6_j5zmbk.png",
               "assetSize": "standard",
               "isVideo": false
             },
             {
+              "description": "",
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633245/ml-2_dzyszw.png",
               "assetSize": "standard",
               "isVideo": false
             },
             {
+              "description": "",
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633245/ml-5_eaoz89.png",
               "assetSize": "standard",
               "isVideo": false
@@ -211,21 +229,25 @@
           },
           "assets": [
             {
+              "description": "",
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633244/mm-1_e35fjs.png",
               "assetSize": "standard",
               "isVideo": false
             },
             {
+              "description": "",
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633244/mm-2_ip3kbx.png",
               "assetSize": "standard",
               "isVideo": false
             },
             {
+              "description": "",
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633244/mm-4_ayzryw.png",
               "assetSize": "standard",
               "isVideo": false
             },
             {
+              "description": "",
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633244/mm-6_iuu1ar.png",
               "assetSize": "standard",
               "isVideo": false
@@ -244,6 +266,7 @@
           ],
           "assets": [
             {
+              "description": "",
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1577299975/test1_cttrec.png",
               "assetSize": "large",
               "isVideo": false
@@ -272,16 +295,19 @@
           ],
           "assets": [
             {
+              "description": "",
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558968613/screen-z-1_hieucq.png",
               "assetSize": "standard",
               "isVideo": false
             },
             {
+              "description": "",
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558968612/screen-z-2_o6ao0w.png",
               "assetSize": "standard",
               "isVideo": false
             },
             {
+              "description": "",
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558968612/screen-z-3_jyc7qt.png",
               "assetSize": "standard",
               "isVideo": false
@@ -295,21 +321,25 @@
           ],
           "assets": [
             {
+              "description": "",
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1583614823/h1_gxsph2.png",
               "assetSize": "standard",
               "isVideo": false
             },
             {
+              "description": "",
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633244/zacks-3_h4uah9.png",
               "assetSize": "standard",
               "isVideo": false
             },
             {
+              "description": "",
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633244/zacks-4_fdc24c.png",
               "assetSize": "standard",
               "isVideo": false
             },
             {
+              "description": "",
               "url": "https://res.cloudinary.com/dkcdueneq/video/upload/v1577300822/zacks-cropped_qglbk9.mp4",
               "assetSize": "standard",
               "isVideo": true
@@ -323,11 +353,13 @@
           ],
           "assets": [
             {
+              "description": "",
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1583615819/search-ab_mfzaoo.png",
               "assetSize": "xlarge",
               "isVideo": false
             },
             {
+              "description": "",
               "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1583615819/order-ab_qdxq9j.png",
               "assetSize": "xlarge",
               "isVideo": false
