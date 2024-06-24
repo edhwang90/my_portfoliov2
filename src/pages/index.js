@@ -13,8 +13,8 @@ const IndexPage = () => (
     <section className="landing wrapper-container">
       <h1 className="hero-text">
         Hello, my name is <strong>Edy</strong> and I am a{" "}
-        <strong>Front End Developer</strong> who enjoys working in{" "}
-        <strong>UX</strong>.
+        <strong>UX/UI Designer</strong> with experience in{" "}
+        <strong>Front End Development</strong>.
       </h1>
     </section>
 

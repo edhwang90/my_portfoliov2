@@ -32,13 +32,6 @@ class Header extends React.Component {
               </button>
             </li>
           </ul>
-          <a
-            className="link rounded inverted"
-            title="Email"
-            href="mailto:edydhwang@gmail.com?subject=Work Opportunity"
-          >
-            Let's Talk!
-          </a>
         </header>
 
         <div className={menuOpen ? "menu slide-open" : "menu"}>

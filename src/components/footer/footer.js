@@ -34,14 +34,6 @@ const Footer = () => (
         </a>
       </li>
     </ul>
-
-    <a
-      className="link rounded inverted"
-      title="Email"
-      href="mailto:edydhwang@gmail.com?subject=Work Opportunity"
-    >
-      Let's Talk!
-    </a>
   </div>
 )
 

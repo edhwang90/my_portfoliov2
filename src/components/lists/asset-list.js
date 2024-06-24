@@ -10,7 +10,7 @@ const AssetList = (props) => {
     {
       data.map((asset, assetIndex) => {
         if (!asset.isVideo) {
-          if (asset.description.length > 0) {
+          if (asset.description?.length > 0) {
             return (
               <li className="with-description" key={assetIndex}>
                 <p>{asset.description}</p>

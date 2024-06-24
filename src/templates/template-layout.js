@@ -39,7 +39,7 @@ const TemplateLayout = props => {
           {additionalLink}
         </section>
         <section className="portfolio-content">{children}</section>
-        <div className="sticky-bottom">
+        <div className="project-bottom">
           <Link to={`/${nextProject}`} className="link" title="To Next Project">
             Next Project
           </Link>
