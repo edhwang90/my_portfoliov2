@@ -1,9 +1,10 @@
-import React from "react"
-import { Link } from "gatsby"
-import Layout from "../layout"
-import SEO from "../components/seo/seo"
+import React from "react";
+import { Link } from "gatsby";
+import Layout from "../layout";
+import SEO from "../components/seo/seo";
+import Back from "../components/back/back";
 
-import "./template-layout.scss"
+import "./template-layout.scss";
 
 const TemplateLayout = props => {
   const { children, content, nextProject } = props
@@ -35,11 +36,12 @@ const TemplateLayout = props => {
           {content.description.map((text, index) => {
             return <p key={index}>{text}</p>
           })}
-
+          
           {additionalLink}
         </section>
         <section className="portfolio-content">{children}</section>
         <div className="project-bottom">
+          <Back></Back>
           <Link to={`/${nextProject}`} className="link" title="To Next Project">
             Next Project
           </Link>

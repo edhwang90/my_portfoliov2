@@ -6,6 +6,7 @@ import Tabs from '../components/tabs/tabs';
 
 import '../templates/project-tabs-template//project-tabs-template.scss';
 import '../components/lists/asset-list.scss';
+import Back from '../components/back/back';
 
 
 const FareShare = () => {
@@ -42,6 +43,7 @@ const FareShare = () => {
           </div>
         </section>
         <div className="project-bottom">
+          <Back></Back>
           <Link to="/gov-financial-app" className="link" title="To Next Project">
             Next Project
           </Link>
