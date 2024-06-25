@@ -24,6 +24,17 @@
   // }
 }
 
+.fareshare {
+  .badge img {
+    width: 35px;
+    margin-right: 14px;
+  }
+
+  .badge:last-of-type img {
+    width: 32px;
+  }
+}
+
 @media only screen and (max-width: 540px) {
   .showcase-bottom {
     margin-top: 20px;
@@ -45,5 +56,17 @@
       width: 25px;
     }
     
+  }
+
+  .fareshare {
+    .badge img {
+      width: 17px;
+      margin-right: 0px;
+      margin-left: 5px;
+    }
+ 
+    .badge:last-of-type img {
+      width: 15px;
+    } 
   }
 }

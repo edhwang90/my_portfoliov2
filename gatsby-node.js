@@ -80,13 +80,13 @@ exports.createPages = async ({ actions, graphql, reporter }, options) => {
   const projects = result.data.allProjectListJson.edges;
 
   projects.forEach((project, index) => {
-    const { node: { slug, id, content: { tabs } } } = project;
+    const { node: { slug, id, content } } = project;
 
     const nextProjectSlug = index === projects.length-1
       ? projects[0].node.slug
       : projects[index+1].node.slug;
 
-    if (tabs) {
+    if (content.tabs) {
       actions.createPage({
         path: slug,
         component: projectTabsTemplate,

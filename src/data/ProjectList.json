@@ -1,40 +1,19 @@
 [
   {
-    "title": "Pattern Library",
-    "description": "Ongoing development of a pattern library for streamlining future work. Built with React and Storybook.js and tested with Jest & Enzyme.",
-    "badges": [ "https://res.cloudinary.com/dkcdueneq/image/upload/v1585245020/html_pmwsnn.png", "https://res.cloudinary.com/dkcdueneq/image/upload/v1585245094/css_xnf9rx.png", "https://res.cloudinary.com/dkcdueneq/image/upload/v1585245094/js_s9dokv.png", "https://res.cloudinary.com/dkcdueneq/image/upload/v1588786659/react-icon_pyqjw2.png", "https://res.cloudinary.com/dkcdueneq/image/upload/v1588786661/storybook-icon_jf6e5c.png" ],
-    "id": "6",
-    "slug": "react-storybook",
-    "content": {
-      "title": "Storybook.js React Pattern Library",
-      "description": [
-        "Developed a pattern library to aid in future development. Utilized HTML/Sass, React, Storybook.js, Jest & Enzyme."
-      ],
-      "link": {
-        "title": "Development Link",
-        "url": "https://my-storybook-5566d.firebaseapp.com/"
-      },
-      "assets": [
-        {
-          "description": "",
-          "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1588786677/Screen_Shot_2020-05-06_at_1.36.59_PM_j3gzhh.png",
-          "assetSize": "xlarge",
-          "isVideo": false
-        },
-        {
-          "description": "",
-          "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1588786676/Screen_Shot_2020-05-06_at_1.37.23_PM_mxaels.png",
-          "assetSize": "xlarge",
-          "isVideo": false
-        }
-      ]
-    }
+    "title": "FareShare",
+    "description": "A capstone project for Springboard's UX Design Immersive. A carpooling mobile app's progression from the discovery phase to the prototype phase.",
+    "id": "7",
+    "slug": "fareshare",
+    "isHC": "true",
+    "badges": ["https://res.cloudinary.com/dkcdueneq/image/upload/v1719321738/google-word_jm5rus.png", "https://res.cloudinary.com/dkcdueneq/image/upload/v1719320507/google-forms_gruc2k.png", "https://res.cloudinary.com/dkcdueneq/image/upload/v1719320508/google-sheets_amtkx0.png", "https://res.cloudinary.com/dkcdueneq/image/upload/v1719320507/figma-logo_hjixyq.png" ],
+    "content": {}
   },
   {
     "title": ".Gov Financial Application Redesign",
     "description": "Provided assistance in the selling and planning of a comprehensive redesign effort for a legacy, nation/agency-wide financial application.",
     "badges": ["https://res.cloudinary.com/dkcdueneq/image/upload/v1558633254/excel_alulbq.png", "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633254/sketch_ukkcnt.png", "https://res.cloudinary.com/dkcdueneq/image/upload/v1588787921/justinmind-icon_vc1ofy.png", "https://res.cloudinary.com/dkcdueneq/image/upload/v1558633254/powerpoint_dxn8p7.png"],
     "id": "3",
+    "isHC": "false",
     "slug": "gov-financial-app",
     "content": {
       "title": ".Gov Financial Application Redesign",
@@ -115,6 +94,37 @@
               "isVideo": false
             }
           ]
+        }
+      ]
+    }
+  },
+  {
+    "title": "Pattern Library",
+    "description": "Ongoing development of a pattern library for streamlining future work. Built with React and Storybook.js and tested with Jest & Enzyme.",
+    "badges": [ "https://res.cloudinary.com/dkcdueneq/image/upload/v1585245020/html_pmwsnn.png", "https://res.cloudinary.com/dkcdueneq/image/upload/v1585245094/css_xnf9rx.png", "https://res.cloudinary.com/dkcdueneq/image/upload/v1585245094/js_s9dokv.png", "https://res.cloudinary.com/dkcdueneq/image/upload/v1588786659/react-icon_pyqjw2.png", "https://res.cloudinary.com/dkcdueneq/image/upload/v1588786661/storybook-icon_jf6e5c.png" ],
+    "id": "6",
+    "slug": "react-storybook",
+    "content": {
+      "title": "Storybook.js React Pattern Library",
+      "description": [
+        "Developed a pattern library to aid in future development. Utilized HTML/Sass, React, Storybook.js, Jest & Enzyme."
+      ],
+      "link": {
+        "title": "Development Link",
+        "url": "https://my-storybook-5566d.firebaseapp.com/"
+      },
+      "assets": [
+        {
+          "description": "",
+          "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1588786677/Screen_Shot_2020-05-06_at_1.36.59_PM_j3gzhh.png",
+          "assetSize": "xlarge",
+          "isVideo": false
+        },
+        {
+          "description": "",
+          "url": "https://res.cloudinary.com/dkcdueneq/image/upload/v1588786676/Screen_Shot_2020-05-06_at_1.37.23_PM_mxaels.png",
+          "assetSize": "xlarge",
+          "isVideo": false
         }
       ]
     }

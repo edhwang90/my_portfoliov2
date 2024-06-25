@@ -26,14 +26,14 @@ const Projects = () => {
 
     return (
       <section key={`projectKey${index}`} id="Project1" className="showcase">
-        <div className="info wrapper-container">
+        <div className={`info wrapper-container ${slug}`}>
           <h3>{title}</h3>
           <p>{description}</p>
 
           <div className="showcase-bottom">
             <ul>
               {
-                badges.map((badge, index) =>
+                badges?.map((badge, index) =>
                   (<li key={`key${index}`} className="badge"><img alt="Badge" src={badge} /></li>))
               }
             </ul>
