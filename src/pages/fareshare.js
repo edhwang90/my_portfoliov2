@@ -34,7 +34,7 @@ const FareShare = () => {
                 <p>
                   Carpooling’s popularity has waned in the United States. Aspects like coordination, payment, planning, and communication make carpooling a larger hassle than a solution.
                   <br/> <br/>
-                  By completing secondary research and interviews, an attempt was made into understanding the needs of the potential user while also increasing user empathy.
+                  By completing secondary research and interviews, an understanding and empathy for the user was developed.
                   <br/><br/>
                   Some artifacts that were produced include an affinity map, empathy maps, personas, and a post-interview survey analysis.
                 </p>
